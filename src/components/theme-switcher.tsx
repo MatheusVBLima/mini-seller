@@ -4,7 +4,7 @@ import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigge
 import { useTheme } from "./theme-provider"
 
 export function ThemeSwitcher() {
-  const { setTheme, theme } = useTheme()
+  const { setTheme } = useTheme()
 
   return (
     <DropdownMenu>
