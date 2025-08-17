@@ -1,0 +1,92 @@
+[
+  {
+    "id": "lead-001",
+    "name": "Sarah Johnson",
+    "company": "TechCorp Solutions",
+    "email": "sarah.johnson@techcorp.com",
+    "source": "Website",
+    "score": 85,
+    "status": "new"
+  },
+  {
+    "id": "lead-002",
+    "name": "Michael Chen",
+    "company": "DataFlow Inc",
+    "email": "m.chen@dataflow.com",
+    "source": "LinkedIn",
+    "score": 92,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-003",
+    "name": "Emily Rodriguez",
+    "company": "CloudVision",
+    "email": "emily@cloudvision.io",
+    "source": "Referral",
+    "score": 78,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-004",
+    "name": "David Kim",
+    "company": "StartupX",
+    "email": "david.kim@startupx.com",
+    "source": "Cold Email",
+    "score": 65,
+    "status": "new"
+  },
+  {
+    "id": "lead-005",
+    "name": "Lisa Thompson",
+    "company": "Enterprise Systems",
+    "email": "lisa.thompson@enterprise.com",
+    "source": "Trade Show",
+    "score": 88,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-006",
+    "name": "James Wilson",
+    "company": "InnovateLab",
+    "email": "james@innovatelab.com",
+    "source": "Website",
+    "score": 73,
+    "status": "new"
+  },
+  {
+    "id": "lead-007",
+    "name": "Maria Garcia",
+    "company": "FutureTech",
+    "email": "maria.garcia@futuretech.com",
+    "source": "LinkedIn",
+    "score": 95,
+    "status": "qualified"
+  },
+  {
+    "id": "lead-008",
+    "name": "Robert Brown",
+    "company": "ScaleUp Ventures",
+    "email": "robert@scaleup.com",
+    "source": "Referral",
+    "score": 82,
+    "status": "contacted"
+  },
+  {
+    "id": "lead-009",
+    "name": "Jennifer Lee",
+    "company": "NextGen Solutions",
+    "email": "jennifer.lee@nextgen.com",
+    "source": "Cold Email",
+    "score": 70,
+    "status": "unqualified"
+  },
+  {
+    "id": "lead-010",
+    "name": "Thomas Anderson",
+    "company": "Matrix Corp",
+    "email": "thomas@matrix.com",
+    "source": "Website",
+    "score": 90,
+    "status": "new"
+  }
+]
