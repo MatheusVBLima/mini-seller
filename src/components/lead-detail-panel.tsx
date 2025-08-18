@@ -192,7 +192,7 @@ export function LeadDetailPanel({ lead, isOpen, onClose, onLeadUpdate, onConvert
             <div className="flex items-center gap-2">
               <Star className="h-4 w-4 text-muted-foreground" />
               <span className="text-sm text-muted-foreground">Score:</span>
-              <span className={`font-semibold ${getScoreColor(lead.score)}`}>{lead.score}</span>
+              <span className={`font-mono font-semibold ${getScoreColor(lead.score)}`}>{lead.score}</span>
             </div>
             <Badge className={`ring-1 ${statusColors[editedLead.status]}`} variant="secondary">
               {editedLead.status.charAt(0).toUpperCase() + editedLead.status.slice(1)}
@@ -233,7 +233,7 @@ export function LeadDetailPanel({ lead, isOpen, onClose, onLeadUpdate, onConvert
                 value={editedLead.email}
                 onChange={(e) => handleEmailChange(e.target.value)}
                 disabled={!isEditing}
-                className={emailError ? "border-destructive" : ""}
+                className={`font-mono ${emailError ? "border-destructive" : ""}`}
                 placeholder="Enter email address"
               />
               {emailError && <p className="text-sm text-destructive mt-1">{emailError}</p>}

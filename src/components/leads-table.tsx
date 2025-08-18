@@ -146,14 +146,14 @@ export function LeadsTable({ leads, onLeadClick }: LeadsTableProps) {
               </div>
               <div className="flex items-center gap-1 ml-2">
                 <Star className="h-3 w-3 text-amber-500" />
-                <span className={`text-sm font-medium ${getScoreColor(lead.score)}`}>{lead.score}</span>
+                <span className={`text-sm font-mono font-medium ${getScoreColor(lead.score)}`}>{lead.score}</span>
               </div>
             </div>
 
             <div className="space-y-2">
               <div className="flex items-center gap-1 text-sm text-muted-foreground">
                 <Mail className="h-3 w-3 flex-shrink-0" />
-                <span className="truncate">{lead.email}</span>
+                <span className="truncate font-mono text-sm">{lead.email}</span>
               </div>
 
               <div className="flex items-center justify-between">
@@ -174,7 +174,7 @@ export function LeadsTable({ leads, onLeadClick }: LeadsTableProps) {
 
   const DesktopTableView = () => (
     <div className="rounded-md border overflow-x-auto hidden md:block">
-      <Table>
+      <Table className="font-mono">
         <TableHeader>
           <TableRow>
             <TableHead className="min-w-[150px]">

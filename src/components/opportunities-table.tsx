@@ -55,7 +55,7 @@ export function OpportunitiesTable({ opportunities }: OpportunitiesTableProps) {
           </div>
         ) : (
           <div className="rounded-md border">
-            <Table>
+            <Table className="font-mono">
               <TableHeader>
                 <TableRow>
                   <TableHead>Opportunity Name</TableHead>
