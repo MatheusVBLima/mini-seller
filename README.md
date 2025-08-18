@@ -2,7 +2,7 @@
 
 A lightweight, modern lead management system built with React and Vite that enables sales teams to efficiently triage leads and convert them into opportunities.
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-success?style=for-the-badge)](https://mini-seller-asessment.vercel.app/)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Visit_App-success?style=for-the-badge)](https://mini-seller-assessment.vercel.app/)
 
 ![React](https://img.shields.io/badge/React-19.x-blue) ![Vite](https://img.shields.io/badge/Vite-7.x-purple) ![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.x-cyan) ![Vercel](https://img.shields.io/badge/Vercel-Deployed-black)
 
@@ -12,7 +12,7 @@ The Mini Seller Console is a comprehensive lead management application designed 
 
 ## 🌐 Live Demo
 
-**[🚀 View Live Application](https://mini-seller-asessment.vercel.app/)**
+**[🚀 View Live Application](https://mini-seller-assessment.vercel.app/)**
 
 Try the live demo to experience all features including lead management, opportunity conversion, dark/light themes, and responsive design!
 
